@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap');
+:root {
+  --dark: #2b2d42;
+  --light: #adb5bd;
+  --border: #dee2e6;
+  --border-btn: #edf2f4;
+  background: linear-gradient(
+    121deg,
+    rgba(154, 60, 173, 1) 6%,
+    rgba(16, 24, 164, 1) 53%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.title {
+  text-align: center;
+  color: #1018a4;
+  font-family: 'Barlow', sans-serif;
+}
+#profile_information {
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+.form_group {
+  padding: 30px;
+}
+
+.details {
+  max-width: 786px;
+  margin: auto;
+}
+.text-light {
+  color: #1018a4;
+  font-family: 'Barlow', sans-serif;
+  font-size: 25;
+  padding: 30px;
+}
+.text-details {
+  width: 100%;
+  padding: 20em 0.3em;
+  margin: 0.5em 0;
+  color: var(--light);
+  font-family: 'Barlow', sans-serif;
+  font-size: 25;
+  border-radius: 0.2em;
+}
+.profile_picture {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  vertical-align: middle;
+}
