@@ -18,12 +18,12 @@
 }
 #profile_information {
   background-color: white;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 5%;
 }
 .form_group {
-  padding: 30px;
+  padding: 15px;
 }
 
 .details {
@@ -31,10 +31,13 @@
   margin: auto;
 }
 .text-light {
+  display: inline-block;
+  width: 200px;
+  text-align: right;
   color: #1018a4;
   font-family: 'Barlow', sans-serif;
   font-size: 25;
-  padding: 30px;
+  padding: 20px;
 }
 .text-details {
   width: 100%;
